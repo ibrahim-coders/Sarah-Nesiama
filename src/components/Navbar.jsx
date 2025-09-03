@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow fixed top-0 z-50 w-full">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
-        <h2 className="text-yellow-950 font-bold text-2xl">Sarah Nesiama</h2>
+        <h2 className="text-slate-800 font-bold text-2xl">Sarah Nesiama</h2>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
@@ -34,7 +34,7 @@ const Navbar = () => {
             to="book-call"
             smooth={true}
             duration={500}
-            className="cursor-pointer bg-yellow-400 text-white px-4 py-2 rounded hover:bg-yellow-500 transition-colors duration-200"
+            className="cursor-pointer bg-yellow-400 text-slate-800 font-semibold px-4 py-2 rounded hover:bg-yellow-500 transition-colors duration-200"
           >
             Book a Call
           </Link>
@@ -120,7 +120,7 @@ const Navbar = () => {
                   smooth={true}
                   duration={500}
                   onClick={() => setIsOpen(false)}
-                  className="cursor-pointer bg-yellow-400 text-sl text-s px-4 py-2 rounded hover:bg-yellow-500 transition-colors duration-200"
+                  className="cursor-pointer bg-yellow-400 text-sl text-s px-4 py-2 rounded hover:bg-yellow-500 transition-colors duration-200 text-slate-800"
                 >
                   Book a Call
                 </Link>

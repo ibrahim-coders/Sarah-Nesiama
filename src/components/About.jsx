@@ -1,5 +1,4 @@
-// src/components/About.jsx
-import React from 'react';
+import sarah from '../assets/IMG.PNG';
 
 const About = () => {
   return (
@@ -37,7 +36,7 @@ const About = () => {
         {/* Decorative Image */}
         <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center md:justify-end">
           <img
-            src="/src/assets/IMG.PNG"
+            src={sarah}
             alt="Sarah Nesiama"
             className="w-96 h-96 object-cover rounded-xl shadow-lg border-4 border-yellow-400"
           />
