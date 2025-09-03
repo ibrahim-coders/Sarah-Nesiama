@@ -67,7 +67,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-8 bg-gray-50">
       <div className="container mx-auto px-6">
         {/* Section Heading */}
         <div className="text-center mb-16">
@@ -108,22 +108,6 @@ const Services = () => {
               </ul>
             </div>
           ))}
-        </div>
-
-        {/* 1:1 Consultation */}
-        <div className="text-center">
-          <div className="bg-yellow-500 rounded-2xl p-8 shadow-xl text-white max-w-xl mx-auto">
-            <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Plus: 1:1 Consultation
-            </h3>
-            <p className="text-lg mb-6">
-              Level up your content strategy with personalized guidance tailored
-              to your brand and goals.
-            </p>
-            <button className="bg-white text-yellow-500 font-semibold px-6 py-3 rounded-lg hover:bg-white/90 transition duration-300">
-              Book a Strategy Call
-            </button>
-          </div>
         </div>
       </div>
     </section>

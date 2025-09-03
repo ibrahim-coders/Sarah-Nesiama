@@ -1,6 +1,6 @@
 const WorkWithMe = () => {
   return (
-    <section id="work-with-me" className="py-20 bg-gray-50">
+    <section id="work-with-me" className="py-6 bg-gray-50">
       <div className="container mx-auto px-6 text-center">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
@@ -62,15 +62,20 @@ const WorkWithMe = () => {
             </span>
           </a>
         </div>
-
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row justify-center gap-6">
-          <button className="bg-yellow-500 text-white font-semibold px-8 py-3 rounded-lg hover:bg-yellow-600 transition duration-300">
-            DM Me "CONTENT"
-          </button>
-          <button className="bg-green-500 text-white font-semibold px-8 py-3 rounded-lg hover:bg-green-600 transition duration-300">
-            Book a 1:1 Session
-          </button>
+        {/* 1:1 Consultation */}
+        <div className="text-center">
+          <div className="bg-yellow-500 rounded-2xl p-8 shadow-xl text-white max-w-xl mx-auto">
+            <h3 className="text-2xl md:text-3xl font-bold mb-4">
+              Plus: 1:1 Consultation
+            </h3>
+            <p className="text-lg mb-6">
+              Level up your content strategy with personalized guidance tailored
+              to your brand and goals.
+            </p>
+            <button className="bg-white text-yellow-500 font-semibold px-6 py-3 rounded-lg hover:bg-white/90 transition duration-300">
+              Book a Strategy Call
+            </button>
+          </div>
         </div>
       </div>
     </section>
