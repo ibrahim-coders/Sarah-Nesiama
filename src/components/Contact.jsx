@@ -1,6 +1,6 @@
-const WorkWithMe = () => {
+const Contact = () => {
   return (
-    <section id="work-with-me" className="py-6 bg-gray-50">
+    <section id="contact" className="py-6 bg-gray-50">
       <div className="container mx-auto px-6 text-center">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
@@ -46,21 +46,6 @@ const WorkWithMe = () => {
               Connect on LinkedIn
             </span>
           </a>
-
-          {/* Book Consultation */}
-          <a
-            href="#"
-            className="flex items-center gap-3 bg-white p-5 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
-          >
-            <img
-              src=" https://img.icons8.com/?size=100&id=ooWxwd8jnXUw&format=png&color=000000"
-              alt=""
-              className="w-6 h-6 text-yellow-500"
-            />
-            <span className="text-gray-900 font-medium">
-              Book a 1:1 Session
-            </span>
-          </a>
         </div>
         {/* 1:1 Consultation */}
         <div className="text-center">
@@ -82,4 +67,4 @@ const WorkWithMe = () => {
   );
 };
 
-export default WorkWithMe;
+export default Contact;

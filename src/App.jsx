@@ -1,8 +1,11 @@
 import About from './components/About';
-import WorkWithMe from './components/Contact';
+import Contact from './components/Contact';
+import FeaturedWork from './components/Featured-Work';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
+import Testimonials from './components/Testimonials';
 
 const App = () => {
   return (
@@ -11,7 +14,10 @@ const App = () => {
       <Hero />
       <About />
       <Services />
-      <WorkWithMe />
+      <FeaturedWork />
+      <Contact />
+      <Testimonials />
+      <Footer />
     </div>
   );
 };

@@ -1,5 +1,4 @@
-import React from 'react';
-import sarah from '../assets/Sarah_Nesiama.png';
+import sarah from '../assets/IMG.PNG';
 
 const Hero = () => {
   return (
@@ -14,7 +13,11 @@ const Hero = () => {
             Ghostwriting, Content Strategy, and Storytelling that attracts
             clients and builds authority
           </p>
-          <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300">
+          <button
+            id="contact"
+            type="button"
+            className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 cursor-pointer"
+          >
             Work With Me
           </button>
         </div>

@@ -34,7 +34,7 @@ const Navbar = () => {
             to="book-call"
             smooth={true}
             duration={500}
-            className="cursor-pointer bg-yellow-400 text-slate-800 font-semibold px-4 py-2 rounded hover:bg-yellow-500 transition-colors duration-200"
+            className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 cursor-pointer"
           >
             Book a Call
           </Link>
@@ -120,7 +120,7 @@ const Navbar = () => {
                   smooth={true}
                   duration={500}
                   onClick={() => setIsOpen(false)}
-                  className="cursor-pointer bg-yellow-400 text-sl text-s px-4 py-2 rounded hover:bg-yellow-500 transition-colors duration-200 text-slate-800"
+                  className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 cursor-pointer"
                 >
                   Book a Call
                 </Link>
