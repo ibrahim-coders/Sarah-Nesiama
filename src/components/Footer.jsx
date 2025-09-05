@@ -38,9 +38,7 @@ const Footer = () => {
 
           <div className="border-t text-white/80 pt-8">
             <p className="text-white/60 text-sm">
-              © 2025 Sarah Nesiama. All rights reserved. • Helping creators,
-              founders, and professionals build authority through LinkedIn
-              content.
+              © 2025 Sarah Nesiama. All rights reserved.
             </p>
           </div>
         </div>

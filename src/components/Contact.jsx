@@ -4,7 +4,7 @@ const Contact = () => {
       <div className="container mx-auto px-6 text-center">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
-          Contact / Work With Me
+          Contact Me
         </h2>
         <p className="text-lg md:text-xl text-gray-700 mb-12 max-w-3xl mx-auto">
           Ready to make your LinkedIn content work for you? Let’s create content
@@ -57,9 +57,15 @@ const Contact = () => {
               Level up your content strategy with personalized guidance tailored
               to your brand and goals.
             </p>
-            <button className="bg-white text-yellow-500 font-semibold px-6 py-3 rounded-lg hover:bg-white/90 transition duration-300">
+
+            <a
+              href="https://calendar.app.google/hTNuXi8yFLkuTGUk9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-yellow-500 font-semibold px-6 py-3 rounded-lg hover:bg-white/90 transition duration-300"
+            >
               Book a Strategy Call
-            </button>
+            </a>
           </div>
         </div>
       </div>

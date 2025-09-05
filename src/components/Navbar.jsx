@@ -20,7 +20,9 @@ const Navbar = () => {
                 to={section}
                 smooth={true}
                 duration={500}
-                className="cursor-pointer hover:text-yellow-400 font-bold text-xl"
+                offset={-80} // Navbar height বাদ
+                onClick={() => setIsOpen(false)}
+                className="cursor-pointer hover:text-yellow-600 font-bold text-xl"
               >
                 {section.charAt(0).toUpperCase() + section.slice(1)}
               </Link>
@@ -30,14 +32,14 @@ const Navbar = () => {
 
         {/* Book a Call Button - Desktop */}
         <div className="hidden md:block">
-          <Link
-            to="book-call"
-            smooth={true}
-            duration={500}
+          <a
+            href="https://calendar.app.google/hTNuXi8yFLkuTGUk9"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 cursor-pointer"
           >
             Book a Call
-          </Link>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -115,15 +117,14 @@ const Navbar = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.1 * menuItems.length }}
               >
-                <Link
-                  to="book-call"
-                  smooth={true}
-                  duration={500}
-                  onClick={() => setIsOpen(false)}
+                <a
+                  href="https://calendar.app.google/hTNuXi8yFLkuTGUk9"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 cursor-pointer"
                 >
                   Book a Call
-                </Link>
+                </a>
               </motion.li>
             </ul>
           </motion.div>

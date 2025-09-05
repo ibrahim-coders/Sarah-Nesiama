@@ -10,16 +10,17 @@ const Hero = () => {
             Helping Personal Brands & Businesses Stand Out on LinkedIn
           </h1>
           <p className="text-md sm:text-lg md:text-xl text-gray-700 mb-6">
-            Ghostwriting, Content Strategy, and Storytelling that attracts
-            clients and builds authority
+            Ghostwriting & content strategy that captures your unique voice,
+            builds authority, and attracts dream clients.
           </p>
-          <button
-            id="contact"
-            type="button"
-            className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 cursor-pointer"
-          >
-            Work With Me
-          </button>
+          <div>
+            <a
+              href="#services"
+              className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 cursor-pointer"
+            >
+              See My Services
+            </a>
+          </div>
         </div>
 
         <div className="pt-10 flex justify-center md:w-1/2">
