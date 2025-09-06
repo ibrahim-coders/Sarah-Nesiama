@@ -20,7 +20,7 @@ const Navbar = () => {
                 to={section}
                 smooth={true}
                 duration={500}
-                offset={-80} // Navbar height বাদ
+                offset={-80}
                 onClick={() => setIsOpen(false)}
                 className="cursor-pointer hover:text-yellow-600 font-bold text-xl"
               >
@@ -38,7 +38,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 cursor-pointer"
           >
-            Book a Call
+            Strategy Session
           </a>
         </div>
 
@@ -123,7 +123,7 @@ const Navbar = () => {
                   rel="noopener noreferrer"
                   className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 cursor-pointer"
                 >
-                  Book a Call
+                  Strategy Session
                 </a>
               </motion.li>
             </ul>

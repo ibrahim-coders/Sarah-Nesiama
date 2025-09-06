@@ -15,10 +15,10 @@ const Hero = () => {
           </p>
           <div>
             <a
-              href="#services"
+              href="https://wa.me/2349041185071?text=Hi%2C%20I%E2%80%99m%20interested%20in%20your%20services"
               className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 cursor-pointer"
             >
-              See My Services
+              Work with Me
             </a>
           </div>
         </div>

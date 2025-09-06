@@ -8,7 +8,7 @@ const testimonials = [
   },
   {
     name: 'Justin',
-    role: 'Marketing Manager, Brand Y',
+    role: 'Content Creator,',
     text: 'Her ghostwriting captures our voice perfectly. Leads and visibility increased significantly.',
   },
   {
